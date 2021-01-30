@@ -23,5 +23,5 @@ How to use:
 编辑crontab
 #:crontab -e
 
-1 03 * * * /root/server_core/abk1.sh >> /root/HDDISK/mc1BACKUP/cron.log 2>&1
-#2 03 * * * /CrontabScript/abk2.sh >> /root/HDDISK/MC2BACKUP/cron.log 2>&1
+1 03 * * * /mc/abk1.sh >> /root/HDDISK/mc1BACKUP/cron.log 2>&1
+#2 03 * * * /mc/abk2.sh >> /root/HDDISK/mc2BACKUP/cron.log 2>&1
