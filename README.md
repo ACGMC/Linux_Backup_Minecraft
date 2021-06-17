@@ -13,6 +13,20 @@ w=写
 x=执行
 
 
+直接用:
+
+╭─root@D /mnt/Backup-Local 
+╰─# sh MC.sh 
+mkdir: 已创建目录 '/mnt/Backup-Local/MC'
+mkdir: 已创建目录 '/mnt/Backup-Local/MC/06-月'
+mkdir: 已创建目录 '/mnt/Backup-Local/MC/logs'
+--------------------------
+0618_04_53_30-开始备份数据...
+操作完成.
+[2021-06-18 04:53:35] Successful
+--------------------------
+╭─root@D /mnt/Backup-Local 
+
 
 此脚本能备份指定文件夹
 压缩包用日期格式.
