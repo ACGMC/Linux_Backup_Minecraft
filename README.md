@@ -25,7 +25,7 @@ How to use:
 crontab -e
 每天3点1分运行:
 
-1 03 * * * /mc/abk1.sh >> /mnt/Backup-Local/MC/cron.log 2>&1
+1 03 * * * /mnt/Backup-Local/MC/AutoBackup.sh >> /mnt/Backup-Local/MC/cron.log 2>&1
 
 
 #2 03 * * * /mc/abk2.sh >> /mnt/Backup-Local/MC/cron.log 2>&1
