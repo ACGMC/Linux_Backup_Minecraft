@@ -21,14 +21,14 @@ x=执行
 
 How to use:
 
-
-
 编辑crontab
-#:crontab -e
+crontab -e
+每天3点1分运行:
 
-1 03 * * * /mc/abk1.sh >> /root/HDDISK/mc1BACKUP/cron.log 2>&1
-#2 03 * * * /mc/abk2.sh >> /root/HDDISK/mc2BACKUP/cron.log 2>&1
+1 03 * * * /mc/abk1.sh >> /mnt/Backup-Local/MC/cron.log 2>&1
+
+
+#2 03 * * * /mc/abk2.sh >> /mnt/Backup-Local/MC/cron.log 2>&1
 
 
 
-e-mail: acgmc@qq.com
