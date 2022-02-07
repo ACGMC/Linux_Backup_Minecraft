@@ -1,4 +1,8 @@
 #!/bin/bash
+#项目地址 https://github.com/ACGMC/Linux_Backup_Minecraft
+
+
+
 
 #时间格式化
 TM=`date +%m%d_%H_%M_%S`
